@@ -4,17 +4,25 @@
   --accent-color: #ff8dcb;
   --border-color: #353430;
   --border-bottom: #353430;
+  --title-color: #353430;
+  --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --text-color: #353430;
   --bg-color: #fff1f7;
   --subtitle-color: #353430;
+  --color-black: #353430;
   --bg-image: url(../images/cover-image-light.png);
-  --secondary-color: var(--color-black, #35343040);
+  --secondary-color: var(--color-black);
   --main-text-color: #353430;
   --article-title-color: var(--main-text-color);
   --section-title-color: var(--main-text-color);
   --link-shadow: var(--title-color);
-  --rec-color: var(--background-color);
+  --rec-color: var(--bg-color);
 }
 .decor {
   display: none;
+}
+@media (max-width: 767px) {
+  :root {
+    --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  }
 }
