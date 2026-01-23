@@ -16,24 +16,3 @@
 :root.theme-light .decor {
   display: none;
 }
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --accent-color: #ff8dcb;
-    --bg-color: #fff1f7;
-    --subtitle-color: #353430;
-    --text-color: #353430;
-    --section-title-color: #353430;
-    --article-title-color: #353430;
-    --border-color: #32312d;
-    --border-color-transparent: rgba(50, 49, 45, 0.4);
-    --border-bottom: #32312d;
-    --heading-text: #ffc2e6;
-    --bg-image: url(../images/cover-image-light.png);
-    --secondary-color: #35343040;
-  }
-
-  .decor {
-    display: none;
-  }
-}
