@@ -6,6 +6,7 @@
   --section-title-color: #353430;
   --article-title-color: #353430;
   --border-color: #353430;
+  --border-color-transparent: rgba(50, 49, 45, 0.4);
   --border-bottom: #353430;
   --heading-text: #ffc2e6;
   --bg-image: url(../images/cover-image-light.png);
@@ -25,6 +26,7 @@
     --section-title-color: #353430;
     --article-title-color: #353430;
     --border-color: #32312d;
+    --border-color-transparent: rgba(50, 49, 45, 0.4);
     --border-bottom: #32312d;
     --heading-text: #ffc2e6;
     --bg-image: url(../images/cover-image-light.png);

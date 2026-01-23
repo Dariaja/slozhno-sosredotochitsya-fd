@@ -42,7 +42,7 @@
 }
 
 .header__theme-menu-button:hover {
-  border-color: var(--secondary-color, #ff007040);
+  border-color: var(--border-color-transparent);
 }
 
 .header__theme-menu-button:focus {
@@ -152,7 +152,7 @@
 }
 
 .section__article__title {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 18px;
   line-height: 23.4px;
 }
@@ -214,6 +214,10 @@
 
 .concentrate-better__title {
   margin-bottom: 20px;
+}
+
+.concentrate-better .section__article__title {
+  font-weight: 400;
 }
 
 .section {
@@ -406,7 +410,6 @@
   .concentrate {
     grid-template-columns: 1fr 2fr;
   }
-  
 
   .concentrate > .content__title {
     grid-column: 1;
