@@ -3,7 +3,8 @@
   --heading-text: #ffc2e6;
   --accent-color: #ff8dcb;
   --border-color: #353430;
-  --border-bottom: #353430;
+  --border-color-transparent: rgba(50, 49, 45, 0.4);
+  --border-bottom: rgba(50, 49, 45, 0.4);
   --title-color: #353430;
   --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --text-color: #353430;

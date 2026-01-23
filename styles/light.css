@@ -7,7 +7,7 @@
   --article-title-color: #353430;
   --border-color: #353430;
   --border-color-transparent: rgba(50, 49, 45, 0.4);
-  --border-bottom: #353430;
+  --border-bottom: rgba(50, 49, 45, 0.4);
   --heading-text: #ffc2e6;
   --bg-image: url(../images/cover-image-light.png);
   --secondary-color: #35343040;
